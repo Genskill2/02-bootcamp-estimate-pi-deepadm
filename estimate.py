@@ -7,7 +7,7 @@ import random
 
 def wallis(n):
     pi_est=1
-    for k in range(1,n+1):
+    for i in range(1,n+1):
        pi_est=pi_est *((4*(i**2))/((4*(i**2))-1))
     return float(pi_est*2)
 
